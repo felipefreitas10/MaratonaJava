@@ -24,7 +24,11 @@ public class Professor {
 
         System.out.println("Seminários:");
         for(Seminario semi : this.seminario){
-            System.out.println(semi.getTitulo());
+            System.out.println("Título: " + semi.getTitulo());
+            System.out.println("Local: " + semi.getLocal().getEndereo());
+            for(Aluno alunos : semi.getAlunos()){
+                System.out.println(alunos.getName());
+            }
         }
     }
 

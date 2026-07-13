@@ -21,6 +21,8 @@ public class Test01 {
 
         Seminario seminario2 = new Seminario("Como Programar", local2);
 
+        seminario1.setAlunos(aluno5, aluno6);
+
 
 
         Professor professor1 = new Professor("Lucivaldo", "Manutenção de Computadores", seminario1, seminario2);
