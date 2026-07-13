@@ -17,8 +17,5 @@ public class PlayerTest03 {
         System.out.println("---- TIME ----");
         team.imprime();
 
-
-
-
     }
 }
