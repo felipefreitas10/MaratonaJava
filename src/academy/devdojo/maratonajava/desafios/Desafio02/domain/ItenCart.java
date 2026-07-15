@@ -1,12 +1,16 @@
 package academy.devdojo.maratonajava.desafios.Desafio02.domain;
 
-public class itenCart {
+public class ItenCart {
     private Product product; //1:1
     private int quantityOrdered;
 
-    public itenCart(Product product, int quantityOrdered) {
+    public ItenCart(Product product, int quantityOrdered) {
         this.product = product;
         this.quantityOrdered = quantityOrdered;
+    }
+
+    public double subTotal(){
+        return this.quantityOrdered * this.product.getPrice();
     }
 
     public Product getProduct() {
