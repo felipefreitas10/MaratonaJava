@@ -5,8 +5,22 @@ public class Person {
     protected String cpf;
     protected Address address;
 
+    static {
+        System.out.println("In static initialization block from Person");
+    }
+
+    {
+        System.out.println("In initialization block 1 from Person");
+    }
+
+    {
+        System.out.println("In initialization block 2 from Person");
+    }
+
+
     public Person(String name){
         this.name = name;
+        System.out.println("In constructor from Person");
     }
 
     //overload of constructor

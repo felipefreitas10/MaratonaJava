@@ -4,6 +4,27 @@ public class Employee extends Person {
     //this class will have every Person's attribute and method plus its attributes and method
     public double salary;
 
+    static{
+        System.out.println("In static initialization block from Employee");
+    }
+
+    {
+        System.out.println("In initialization block 1 from Employee");
+    }
+
+    {
+        System.out.println("In inictialization block 2 from Employee");
+    }
+
+//    public Employee(String name){ -> It's not possible because every time that we create a constructor in subclass we must use some constructor from superclass
+//        this.name = name;
+//    }
+
+    public Employee(String name){
+        super(name);
+        System.out.println("In constructor from Employee");
+    }
+
     public Employee(String name, double salary){
         super(name); //The super class' constructor
         this.salary = salary;

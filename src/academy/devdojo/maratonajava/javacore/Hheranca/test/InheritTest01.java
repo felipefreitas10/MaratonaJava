@@ -4,7 +4,7 @@ import academy.devdojo.maratonajava.javacore.Hheranca.domain.Address;
 import academy.devdojo.maratonajava.javacore.Hheranca.domain.Person;
 import academy.devdojo.maratonajava.javacore.Hheranca.domain.Employee;
 
-public class HerancaTest01 {
+public class InheritTest01 {
     public static void main(String[] args){
         Address address01 = new Address("Street of Victory", "12034-873");
         Person person01 = new Person("Antônio");
