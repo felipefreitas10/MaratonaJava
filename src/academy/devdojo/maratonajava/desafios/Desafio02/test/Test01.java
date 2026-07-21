@@ -5,7 +5,7 @@ import academy.devdojo.maratonajava.desafios.Desafio02.domain.CartShop;
 import academy.devdojo.maratonajava.desafios.Desafio02.domain.Product;
 
 
-public class test01 {
+public class Test01 {
     public static void main(String[] args){
         Product product01 = new Product("Nike Shoes", 55.5, 200);
         Product product02 = new Product("Adidas Shoes", 45, 250);
