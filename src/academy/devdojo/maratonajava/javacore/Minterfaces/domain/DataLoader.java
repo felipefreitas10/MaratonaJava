@@ -15,5 +15,4 @@ public interface DataLoader {
         System.out.println(MAX_DATA_SIZE);
     }
 
-    void loadDats();
 }
