@@ -13,5 +13,9 @@ public abstract class Employee {
 
     public abstract void bonus();
 
+    public void impirmir(){
+        System.out.println(this.name);
+    }
+
 }
 

@@ -10,5 +10,7 @@ public class EmployeeTest01 {
 
         System.out.println(maneger01);
         System.out.println(developer01);
+
+        maneger01.impirmir();
     }
 }
