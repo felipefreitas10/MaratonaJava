@@ -42,6 +42,7 @@ public class Employee extends Person {
 
     //super -> references to super class
     //overwriting the method
+    @Override
     public void printObject(){
         super.printObject(); //we are called the method printObject of super class, not the object but the super class application for this employee object
         System.out.println(this.salary);
