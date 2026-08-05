@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.desafios.Associations.Challenge03.domain;
+package academy.devdojo.maratonajava.desafios.Challenge03.domain;
 
 public class Freelancer {
     private String name;

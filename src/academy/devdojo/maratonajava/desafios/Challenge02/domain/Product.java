@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.desafios.Associations.Challenge02.domain;
+package academy.devdojo.maratonajava.desafios.Challenge02.domain;
 
 public class Product {
     private String name;

@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.desafios.Associations.Challenge02.domain;
+package academy.devdojo.maratonajava.desafios.Challenge02.domain;
 
 public class CartShop {
     private ItenCart[] itens = new ItenCart[10]; //só pode 10 itens no carrinho

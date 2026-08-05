@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.desafios.Associations.Challenge01.domain;
+package academy.devdojo.maratonajava.desafios.Challenge01.domain;
 
 public class Way {
     private String plate;

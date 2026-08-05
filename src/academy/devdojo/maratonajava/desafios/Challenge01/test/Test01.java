@@ -1,8 +1,8 @@
-package academy.devdojo.maratonajava.desafios.Associations.Challenge01.test;
+package academy.devdojo.maratonajava.desafios.Challenge01.test;
 
-import academy.devdojo.maratonajava.desafios.Associations.Challenge01.domain.Delivery;
-import academy.devdojo.maratonajava.desafios.Associations.Challenge01.domain.Driver;
-import academy.devdojo.maratonajava.desafios.Associations.Challenge01.domain.Way;
+import academy.devdojo.maratonajava.desafios.Challenge01.domain.Delivery;
+import academy.devdojo.maratonajava.desafios.Challenge01.domain.Driver;
+import academy.devdojo.maratonajava.desafios.Challenge01.domain.Way;
 
 
 public class Test01 {

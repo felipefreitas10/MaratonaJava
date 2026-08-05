@@ -1,8 +1,8 @@
-package academy.devdojo.maratonajava.desafios.Associations.Challenge02.test;
+package academy.devdojo.maratonajava.desafios.Challenge02.test;
 
-import academy.devdojo.maratonajava.desafios.Associations.Challenge02.domain.ItenCart;
-import academy.devdojo.maratonajava.desafios.Associations.Challenge02.domain.CartShop;
-import academy.devdojo.maratonajava.desafios.Associations.Challenge02.domain.Product;
+import academy.devdojo.maratonajava.desafios.Challenge02.domain.ItenCart;
+import academy.devdojo.maratonajava.desafios.Challenge02.domain.CartShop;
+import academy.devdojo.maratonajava.desafios.Challenge02.domain.Product;
 
 
 public class Test01 {

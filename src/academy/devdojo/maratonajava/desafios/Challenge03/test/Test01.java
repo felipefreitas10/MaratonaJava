@@ -1,7 +1,7 @@
-package academy.devdojo.maratonajava.desafios.Associations.Challenge03.test;
+package academy.devdojo.maratonajava.desafios.Challenge03.test;
 
-import academy.devdojo.maratonajava.desafios.Associations.Challenge03.domain.Freelancer;
-import academy.devdojo.maratonajava.desafios.Associations.Challenge03.domain.Project;
+import academy.devdojo.maratonajava.desafios.Challenge03.domain.Freelancer;
+import academy.devdojo.maratonajava.desafios.Challenge03.domain.Project;
 
 public class Test01 {
     public static void main(String[] args) {
