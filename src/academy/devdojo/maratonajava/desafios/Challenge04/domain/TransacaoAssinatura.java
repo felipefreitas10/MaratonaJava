@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.desafios.Challenge05.domain;
+package academy.devdojo.maratonajava.desafios.Challenge04.domain;
 
 public class TransacaoAssinatura extends Transacao implements Notificavel, Auditivel{
     public int mesesRecorrencia;
@@ -14,7 +14,7 @@ public class TransacaoAssinatura extends Transacao implements Notificavel, Audit
 
     @Override
     public void enviarComprovante(){
-        System.out.println("Envaindo comprovante por e-mail...");
+        System.out.println("Enviando comprovante por e-mail...");
     }
 
     @Override

@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.desafios.Challenge05.domain;
+package academy.devdojo.maratonajava.desafios.Challenge04.domain;
 
 public abstract class Transacao {
     protected final String id; //Ninguém pode alterar o id após ele ser instanciado

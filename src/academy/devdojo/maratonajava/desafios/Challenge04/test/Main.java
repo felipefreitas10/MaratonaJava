@@ -1,10 +1,10 @@
-package academy.devdojo.maratonajava.desafios.Challenge05.test;
+package academy.devdojo.maratonajava.desafios.Challenge04.test;
 
 import java.util.Scanner;
-import academy.devdojo.maratonajava.desafios.Challenge05.domain.Transacao;
-import academy.devdojo.maratonajava.desafios.Challenge05.domain.TransacaoVenda;
-import academy.devdojo.maratonajava.desafios.Challenge05.domain.TransacaoAssinatura;
-import academy.devdojo.maratonajava.desafios.Challenge05.domain.TipoPagamento;
+import academy.devdojo.maratonajava.desafios.Challenge04.domain.Transacao;
+import academy.devdojo.maratonajava.desafios.Challenge04.domain.TransacaoVenda;
+import academy.devdojo.maratonajava.desafios.Challenge04.domain.TransacaoAssinatura;
+import academy.devdojo.maratonajava.desafios.Challenge04.domain.TipoPagamento;
 
 
 public class Main {
@@ -102,11 +102,11 @@ public class Main {
                     if(transacao != null){
                         if(transacao instanceof TransacaoVenda){
                             transacao.processarPagamento();
-                            transacao.toString();
+                            System.out.println(transacao.toString());
                             ((TransacaoVenda) transacao).enviarComprovante(); //notificável
                         }else if (transacao instanceof TransacaoAssinatura){
                             transacao.processarPagamento();
-                            transacao.toString();
+                            System.out.println(transacao.toString());
                             ((TransacaoAssinatura) transacao).enviarComprovante(); //notificável
                             ((TransacaoAssinatura) transacao).registrarLogAuditorial(); //auditivel
                         }
