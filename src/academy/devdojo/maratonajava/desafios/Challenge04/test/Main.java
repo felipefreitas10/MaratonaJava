@@ -102,11 +102,11 @@ public class Main {
                     if(transacao != null){
                         if(transacao instanceof TransacaoVenda){
                             transacao.processarPagamento();
-                            System.out.println(transacao.toString());
+                            System.out.println(transacao);
                             ((TransacaoVenda) transacao).enviarComprovante(); //notificável
                         }else if (transacao instanceof TransacaoAssinatura){
                             transacao.processarPagamento();
-                            System.out.println(transacao.toString());
+                            System.out.println(transacao);
                             ((TransacaoAssinatura) transacao).enviarComprovante(); //notificável
                             ((TransacaoAssinatura) transacao).registrarLogAuditorial(); //auditivel
                         }
