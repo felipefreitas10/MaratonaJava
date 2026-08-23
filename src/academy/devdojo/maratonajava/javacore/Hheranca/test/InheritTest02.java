@@ -18,5 +18,8 @@ import academy.devdojo.maratonajava.javacore.Hheranca.domain.Employee;
 public class InheritTest02 {
     public static void main(String[] args){
         Employee employee = new Employee("Felipe");
+        System.out.println(employee);
     }
+
+
 }
